@@ -4,16 +4,6 @@ The URL Checker is a simple web application that allows users to check the valid
 
 ## Project Structure
 
-url-checker/
-│
-├── src/
-│   ├── css/
-│   ├── img/
-│   ├── js/
-│   ├── tests/
-│   └── index.html
-│
-
 - src/css/: Contains CSS files for styling the application.
 - src/img/: Contains images used in the application.
 - src/js/: Contains JavaScript files, including the main logic for URL checking and debouncing.
