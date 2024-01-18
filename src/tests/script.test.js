@@ -14,8 +14,10 @@ describe('URL validation tests', () => {
 describe('URL existence tests', () => {
     test('Mock URL existence check', () => {
         return checkUrlExistence('http://www.example.com/file.html').then(data => {
-            expect(data).toBe('URL exists and is a file');
+            expect(data.message).toBe('URL exists and is a file');
+            expect(data.status).toBe(200);
         });
     });
+
 });
 })
